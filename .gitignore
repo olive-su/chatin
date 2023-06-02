@@ -8,3 +8,6 @@ out/
 
 # Log file
 *.log
+
+# Key file
+src/application.yml
