@@ -8,6 +8,11 @@ out/
 
 # Log file
 *.log
+target/
 
 # Key file
-src/application.yml
+application.json
+
+# Libraries
+src/lib/
+src/main/webapp/WEB-INF/lib/
