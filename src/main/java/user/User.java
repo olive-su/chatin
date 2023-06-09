@@ -2,6 +2,7 @@ package user;
 
 public class User {
     private String email;
+    private String nickname;
     private String password;
 
     public String getEmail() {
@@ -10,6 +11,14 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public String getPassword() {
