@@ -11,7 +11,7 @@
 </jsp:include>
 <div class="mx-20 mt-40 container mb-24 px-40 md:mx-auto">
     <div class="w-full mb-8">
-        <section class="bg-gray-50 dark:bg-gray-9 00 rounded-lg">
+        <section class="bg-gray-50 dark:bg-gray-900 rounded-lg">
             <div class="px-10 pt-10">
                 <h5 class="mb-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
         <span class="flex gap-2 text-white px-2">
