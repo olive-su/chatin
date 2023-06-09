@@ -1,16 +1,9 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: sugyeong
-  Date: 2023/05/07
-  Time: 3:54 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>
 <html xml:lang>
 <head>
-    <title>My CS Interviewer | Sign In</title>
+    <title>CHATIN | Sign In</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="../styles/index.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css"/>
@@ -25,8 +18,8 @@
     <jsp:param name="selected" value="4"/>
 </jsp:include>
 <%
-    if (session.getAttribute("email") != null)
-        session.removeAttribute("email"); // 세션 초기화
+//    if (session.getAttribute("email") != null)
+//        session.removeAttribute("email"); // 세션 초기화
 %>
 
 <div class="mx-20 mt-40 container mb-24 px-40 md:mx-auto">
