@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html xml:lang>
   <head>
-    <title>My CS Interviewer</title>
+    <title>CHATIN</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="../styles/index.css" rel="stylesheet" type="text/css">
   </head>

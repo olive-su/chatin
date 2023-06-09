@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>My CS Interviewer | Articles</title>
+  <title>CHATIN | Articles</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="../styles/index.css" rel="stylesheet" type="text/css">
   <script type="text/javascript">
