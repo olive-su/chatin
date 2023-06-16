@@ -51,33 +51,15 @@
                                    value="<%= session.getAttribute("email") %>"
                                    class="bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white-500 dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         </div>
-                        <div class="w-full">
-                            <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">비밀번호</label>
-                            <input disabled
-                                   type="text"
-                                   id="password"
-                                   name="password"
-                                   value="비밀번호 들어갈 곳"
-                                   class="bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white-500 dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                        </div>
-
-                        <div class="flex justify-center">
-                            <button type="submit"
-                                    id="signupSubmit"
-                                    class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                  <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                      확인
-                  </span>
-                            </button>
-                            <a href="/community/free.jsp">
-                                <button type="button"
-                                        class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                  <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                      게시글 목록
-                  </span>
-                                </button>
-                            </a>
-                        </div>
+<%--                        <div class="w-full">--%>
+<%--                            <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">비밀번호</label>--%>
+<%--                            <input disabled--%>
+<%--                                   type="text"--%>
+<%--                                   id="password"--%>
+<%--                                   name="password"--%>
+<%--                                   value="비밀번호 들어갈 곳"--%>
+<%--                                   class="bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white-500 dark:focus:ring-blue-500 dark:focus:border-blue-500">--%>
+<%--                        </div>--%>
                     </div>
                 </form>
             </div>

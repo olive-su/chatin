@@ -32,7 +32,7 @@
       #parallax1{
         top: 40%;
         left: 40%;
-        font-size: 90px;
+        font-size: 60px;
         font-family: 'LeeSeoyun', cursive;
         color: #ccc;
         animation: moveText 2s linear infinite alternate;
@@ -41,7 +41,7 @@
       #parallax2{
         top: 60%;
         left: 60%;
-        font-size: 70px;
+        font-size: 50px;
         font-family: 'LeeSeoyun', cursive;
         color: #ccc;
         animation: moveText 2s linear infinite alternate;
@@ -50,7 +50,7 @@
       #parallax3{
         top: 50%;
         left: 50%;
-        font-size: 80px;
+        font-size: 50px;
         font-family: 'LeeSeoyun', cursive;
         color: #ccc;
         animation: moveText 2s linear infinite alternate;
@@ -134,15 +134,12 @@
   <jsp:include page="../components/navbar.jsp" flush="false">
     <jsp:param name="selected" value="0"/>
   </jsp:include>
-  <div class="mx-40 mt-40 mb-24 flex justify-center">
+  <div class="flex justify-center mx-20 mt-40">
+
     <div id="parallax1" class="scroll-text">면접 준비 어디서하지?</div>
     <div id="parallax2" class="scroll-text">뭐 부터 해야하지?</div>
     <div id="parallax3" class="scroll-text">누구 같이할 사람 없을까?</div>
 
-  <%--    <div>--%>
-<%--      <p class="my-4 flex justify-center font-bold text-2xl text-sky-200"> <a class="underline decoration-indigo-500">ChatGPT</a>로 인터뷰 연습하기 </p>--%>
-<%--      <img class="h-auto max-w-lg mxy-auto transition-all duration-300 rounded-lg cursor-pointer filter hover:grayscale-0" src="https://i.guim.co.uk/img/media/54473a6bbec3abc8a550cb6f03f175afdec7b1b8/0_267_5035_3021/master/5035.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=5f89d851b3d196a04f1d2ee07c1e55d6" alt="chatgpt">--%>
-<%--    </div>--%>
   </div>
   <div id="main" class="scroll-text">
     <img src="../assets/main-line.png" class="w-full" alt="main-line-image">

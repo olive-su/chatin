@@ -23,7 +23,7 @@
         <ul class="flex flex-wrap -mb-px">
             <li class="mr-2">
                 <a href="/community/free.jsp"
-                   class="inline-block p-4 text-gray-100 border-b-2 border-purple-600 rounded-t-lg active dark:text-gray-100 dark:border-purple-500">자유</a>
+                   class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">자유</a>
             </li>
             <li class="mr-2">
                 <a href="/community/review.jsp"
@@ -37,7 +37,7 @@
             </li>
             <li class="mr-2">
                 <a href="/community/study.jsp"
-                   class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">스터디 모집</a>
+                   class="inline-block p-4 text-gray-100 border-b-2 border-purple-600 rounded-t-lg active dark:text-gray-100 dark:border-purple-500">스터디 모집</a>
             </li>
         </ul>
     </div>
@@ -45,7 +45,7 @@
     <div id="content_section" class="w-full rounded-lg overflow-hidden">
         <div>
         <jsp:include page="/servlet/CommunityServlet" flush="true">
-            <jsp:param name="category" value="자유"/>
+            <jsp:param name="category" value="스터디 모집"/>
         </jsp:include>
         </div>
     </div>

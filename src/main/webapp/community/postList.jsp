@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="w-full rounded-lg overflow-hidden">
-    <a href="/community/<%= post.getCommunityId() %>.jsp"
+    <a href="/community/post.jsp?postId=<%= post.getCommunityId() %>"
        class="w-full block p-6 bg-white border-y border-gray-200 shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
             <%= post.getTitle() %>
